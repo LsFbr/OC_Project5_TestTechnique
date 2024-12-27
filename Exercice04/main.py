@@ -1,12 +1,12 @@
-class myClass:
+class MyClass:
     def __init__(self, full_name):
         self.full_name = full_name
 
-    def displayName(self):
+    def display_name(self):
         print("Le nom complet est :", self.full_name)
 
 
-class other_class:
+class OtherClass:
     def __init__(self, first_name, name):
         self.first_name = first_name
         self.name = name

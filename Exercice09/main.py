@@ -1,11 +1,14 @@
 class Rectangle:
+    # Initialisation des attributs
     def __init__(self, width, length):
         self.width = width
         self.length = length
 
+    # Calcul de l'aire du rectangle
     def calculate_area(self):
         return self.width * self.length
 
+    # Calcul du périmètre du rectangle
     def calculate_perimeter(self):
         return 2 * (self.length + self.width)
 
